@@ -4,7 +4,14 @@ import cz.upce.fei.cv01.entity.Student;
 import org.springframework.web.bind.annotation.*;
 
 // RestController vs Controller
+/*
+* RestController se používá pro REST rozhraní, které vrací Json, Xml
+* Controller většinou vrací nějaké view*/
 // YAML vs JSON vs XML
+/*
+* YAML - je dobře čitelný pro člověka, nepoužívá žádné párové tagy, závorky, pouze mezery, dvojtečky a pomlčky
+* JSON - Klíč a hodnota, používají se závorky
+* XML - obsahuje tagy, zdlouhavé*/
 @RestController
 //@RequestMapping("api/v1")
 public class HelloController {
